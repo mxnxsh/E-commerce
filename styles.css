@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.topNavbar{
+	overflow: hidden;
+  	background-color: #9be3de;
+}
+.left{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	margin-left: 8em ;
+	list-style-type: none;
+}
+.leftPostionList {
+	float:left;
+	border-left: 1px solid #698474;
+}
+.leftPostionList a{
+	display: block;
+	text-align: center;
+	color: black;
+	padding: 10px;
+}
+.leftPostionList a:hover{
+	background-color: #beebe9;
+	color: black;
+	text-decoration: none;
+}
+.nav-item a:hover{
+	background-color: #ff7315;
+}
+/* Nvabar brand*/
+.navbar-brand{
+	font-size: 2rem;
+	font-weight: bold;
+	color:#fe9801;
+	margin: 5% 10%; 
+}
+/*carousel*/
+
+section .carousel-inner .carousel-item{
+  height: 50%;
+}
+
+#footer{
+	background-color: #21bf73;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+.btn{
+	padding: 50px;
+}
